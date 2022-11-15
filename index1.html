@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS Layouting (Pengelompokkan Div dan Span</title>
+    
+    <style>
+        a {
+            background-color: cadetblue;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        h1, h2, p {
+            background-color: fuchsia;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        /* Koding untuk menghilangkan image
+        img {
+            display: none;
+        } */
+        .navigasi {
+            background-color: blueviolet;
+        }
+        .navigasi li {
+            display: inline;
+        }
+        .utama {
+            background-color: chartreuse;
+            width: 600px;
+        }
+        .utama h2 {
+            background-color: darkblue;
+        }
+        .utama span {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pengelompokkan dengan Div dan Span -->
+    <div>
+        <h1>Selamat Datang Di Website Kami</h1>
+    </div>
+    
+    <div class="navigasi">
+        <h2>Daftar Link</h2>
+        <a href="#">Ini Adalah Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </div>
+
+    <div class="utama">
+        <h2>Judul Artikel</h2>
+        <h2>Judul Artikel 2</h2>
+        <img src="api-biru.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sit, error tenetur amet quidem assumenda, <span>odit deserunt alias </span> aliquid doloremque nulla quibusdam! Ducimus dignissimos beatae ipsum cupiditate hic repudiandae?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi eius eveniet, corrupti rem vel itaque saepe aut eligendi ipsa tempore blanditiis quasi illo voluptatem in vitae ducimus odio deleniti inventore.</p>    
+    </div>
+    
+    <div class="copyright">
+        <p>Copyright 2022. Web Programming Sofyan Eko Sanjoyo</p>
+    </div>
+
+</body>
+</html>
